@@ -13,7 +13,9 @@ func main() {
 	//fmt.Println(a)
 
 	// Problem #7
-	b := lc.Reverse(-123)
-	c := lc.Reverse(123)
-	fmt.Println(b, c)
+	//b := lc.Reverse(-123)
+	//c := lc.Reverse(123)
+	//fmt.Println(b, c)
+
+	fmt.Println(lc.IsPalindrome(-121))
 }
