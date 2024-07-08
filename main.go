@@ -17,5 +17,10 @@ func main() {
 	//c := lc.Reverse(123)
 	//fmt.Println(b, c)
 
-	fmt.Println(lc.IsPalindrome(-121))
+	// Problem #9
+	//fmt.Println(lc.IsPalindrome(-121))
+
+	// Problem #15
+	nums := []int{-1, 0, 1, 2, -1, -4}
+	fmt.Println(lc.ThreeSum(nums))
 }
